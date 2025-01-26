@@ -19,7 +19,7 @@ mostafa.el-kalliny@colorado.edu
 mostafa.elkalliny@gmail.com
 
 # Outline
-Files below (found at Dryad directory url
+Files (which will become publicly available via Dryad)
 are designed to be directly loaded into the Jupyter notebooks here
 and to be sufficient for running all analyses and generating a rough
 draft of figures.
