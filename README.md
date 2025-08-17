@@ -1,12 +1,12 @@
 # NAcInhib
-Codebase accompanying the manuscript: "Accumbal calcium-permeable AMPARs orchestrate social attachment"
+Codebase accompanying the manuscript: "Accumbal calcium-permeable AMPA receptors orchestrate neuronal ensembles underlying social attachment"
 
 # Author(s)
-Mostafa M. El-Kalliny, William M. Sheeran, Liza E. Brusman, Olivia E. Neilly, Kelly E. Winther, Michael A. Kelberman, Zoe R. Donaldson*
+Mostafa M. El-Kalliny, J. Keenan Kushner, William M. Sheeran, Olivia E. Neilly, Kelly E. Winther, Liza E. Brusman, Michael A. Kelberman, Charles A. Hoeffer, Zoe R. Donaldson*
 
 This dataset contains a combination of code used to
 support the findings in the manuscript 
-"Accumbal calcium-permeable AMPARs orchestrate social attachment"
+"Accumbal calcium-permeable AMPA receptors orchestrate neuronal ensembles underlying social attachment"
 
 Please see the Methods section of the manuscript for a
 detailed description of how these data were generated. 
@@ -38,6 +38,8 @@ final_IEM_data.xlsx
 Results of pharmacology-only experiment examining the effect of bilateral
 accumbal ACSF versus IEM-1460 administration on bond formation
 
+NASPM.zip contains: partner_novel_huddle_data.csv, naspm_final_data.csv, and mating_bouts_with_new_data.csv
+
 # Used by cell_encoding.ipynb:
 cell_encoding_total.pkl
 Variety of data consolidated for analysis of behavior during imaging, 
@@ -51,6 +53,10 @@ Variety of data consolidated for neuronal encoding via
 ensembles and population analyses using PCA, decoding, 
 cosine similarity. 
 
+stranger_assemblies_d14.pkl, assemblies_corrs.pkl, 
+ensemble_behavior_data.pkl, and difference_scores.npy
+Small set of additional data for revision analyses.
+
 # Used by ephys_analysis.ipynb:
 /ephys contains a #_day2_final.pkl with different # 
 for each animal, containing all preprocessed 
@@ -60,6 +66,12 @@ for the remainder of the notebook.
 
 ephys_snippet.pkl contains the snippet of data used by
 the load_and_plot_snippet function. 
+
+# Used by patch_analyses.ipynb:
+patchedCells.zip contains a folder for each cell, containing
+individual .abf files and a metadata.csv describing which .abf 
+files correspond to which protocol (e.g. current injections, 
+baseline eEPSCs, drug eEPSCs).
 
 # Used by multiple notebooks
 general_utils.py
